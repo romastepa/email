@@ -15,6 +15,15 @@
         text-decoration: none;
     }
 
+    .button:hover a {
+        color: #fffefe !important;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 22px;
+        text-decoration: none;
+    }
+
     .button:hover table {
         background-color: #fd6049;
         padding: 5px 32px;
@@ -39,17 +48,16 @@
         <!-- |||||| Start color bar top |||||| -->
         <tr>
             <td align="center" valign="top">
-                <table background="https://raw.githubusercontent.com/nanastepanova/email/master/images/topline.png"
-                       width="640" border="0" align="center" valign="top"
-                       cellpadding="0"
-                       cellspacing="0"
-                       style="border-collapse: collapse; mso-table-lspace: 0pt; mso-tarspace: 0pt; border: 0px; background: url('//raw.githubusercontent.com/nanastepanova/email/master/images/topline.png'); background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"
-                       alt="line">
+                <table width="640" border="0" align="center" valign="top" cellpadding="0" cellspacing="0">
                     <tbody>
                     <tr>
                         <td border="0" align="center" valign="top" cellpadding="0" cellspacing="0"
-                            style="line-height:5px;"
+                            style="line-height:5px; overflow: hidden;"
                             height="5">
+                            <img width="640" height="5" border="0"
+                                 style="display: block;"
+                                 src="https://raw.githubusercontent.com/nanastepanova/email/master/images/topline.png"
+                                 alt="topline"/>
 
                         </td>
                     </tr>
@@ -61,7 +69,7 @@
         <!-- |||||| Start PRE-HEADER  |||||| -->
         <tr>
             <td valign="top" align="center">
-                <table width="640" border="0" align="center" valign="top" cellpadding="0" cellspacing="0" style="">
+                <table width="640" border="0" align="center" valign="top" cellpadding="0" cellspacing="0">
                     <tbody>
                     <tr>
                         <td border="0" align="center" valign="top" cellpadding="0" cellspacing="0"
@@ -797,7 +805,9 @@
                                                             <tbody>
                                                             <tr>
                                                                 <td style="color:#838383; font-family: 'Open Sans', sans-serif; font-size:13px; font-weight: 300; line-height: 22px; text-decoration:none;">
-                                                                    Learn More
+                                                                    <a href="#" target="_blank"
+                                                                       style="color:#838383; font-family: 'Open Sans', sans-serif; font-size:13px; font-weight: 300; line-height: 22px; text-decoration:none;"
+                                                                       >Learn More</a>
                                                                 </td>
                                                             </tr>
                                                             </tbody>
